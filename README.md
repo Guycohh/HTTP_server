@@ -50,7 +50,7 @@ The bad_errors function is a utility function that is used to handle various err
 # Program Files
 server.c, threadpool.c
 
-How to compile?
+# How to compile?
 compile:    gcc -g -Wall threadpool.c server.c -lpthread -o server
 run: ./sever <port> <pool-size> <max-number-of-request>
 if you want to connect, use browser of another cmd.
